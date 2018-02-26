@@ -1,0 +1,55 @@
+{
+	"runtime": 10.0,
+	"eventFiringRate" : 50,
+	"temporalTime": [30, 60],
+
+	"grid": {
+		"range" : 100,
+		"xScale": 1,
+		"yScale": 1,
+		"zScale": 1
+	},
+
+	"stationary": {
+		"max" : 10000,
+		"dist": "normal",
+		"mean": 10,
+		"std" : 4.5
+	},
+
+	"space": {
+		"max" : 1000,
+		"dist": "normal",
+		"mean": 20,
+		"std" : 1
+	},
+
+	"listNum": {
+		"max" : 100,
+		"dist": "normal",
+		"mean": 4,
+		"std" : 1
+	},
+
+	"listPos": {
+		"dist": "chisquare",
+		"dof" : 3
+	},
+
+	"eventInt": {
+		"dist": "chisquare",
+		"dof" : 6
+	},
+
+	"lifespan": {
+		"dist": "normal",
+		"mean": 3,
+		"std" : 1
+	},
+
+	"writeProb": {
+		"dist": "normal",
+		"mean": 5,
+		"std" : 1
+	}
+}

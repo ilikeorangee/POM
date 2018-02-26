@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device id="02">
+	<config id="conf">
+		<type id="tp">switch</type>
+		<location id='loc'>rm2</location>
+		<ipaddr id="ip"/>
+	</config>
+</device>

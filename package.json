@@ -1,0 +1,9 @@
+{
+  "name": "pomtemporal",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --debug-brk ./pomserver.js",
+    "test": "node --debug-brk ./pomsim.js"
+  }
+}
